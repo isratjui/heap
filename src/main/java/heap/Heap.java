@@ -48,7 +48,7 @@ public class Heap {
         }
     }
 
-    /*
+    /* algorithm
     max-heap-insert(A, key )
     1 heap-size [A] �? heap-size [A] + 1
     2 A[heap-size [A]] �? key
@@ -74,9 +74,7 @@ public class Heap {
     public void Heapsort() {
         Build_Max_Heap();// use  Build_Max_Heap method to find the max heap to make deescending sort.
         int [] temp=new int[A.length];
-        // System.out.println(A.length);
-        //System.out.println(A[A.length-1]);
-        // int heap_size=A.length;
+       
         for(int i=0;i<A.length;i++)
         {
 
