@@ -1,7 +1,7 @@
 package heap;
 
 public class Heap {
-
+//array input
     public int A[] = {4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
     //public int size=A.length;
     public Heap() {
